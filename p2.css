@@ -14,7 +14,7 @@ body {
 	margin: 0;
 }
 .wrapper {
-	border: 2px solid orange;
+	/* border: 2px solid orange; */
 	width: 900px;
 	margin: 0 auto;
 	padding: 10px;
@@ -37,11 +37,7 @@ header h1 {
 	width: 30%;
 	float: left;
 }
-aside {
-	font-size: .9em;
-	/* color: maroon; */
-	/* font-weight: bold; */
-}
+
 img {
 	border: 1px solid black;
 }
@@ -62,6 +58,11 @@ img {
 aside {
 	width: 25%;
 	float: left;
+	font-size: .9em;
+	background-color: #FEEBB3;
+	padding: 0 1em 0 1em;
+	border-radius: 25px;
+	margin-top: 1em;
 	/* padding-top: 80px; */
 }
 
@@ -155,6 +156,12 @@ footer {
     /* margin: 10px; */
     /* border: 1px solid #2D2D2D; */
 }
+
+fieldset {
+	border-radius: 10px;
+}
+
+
 
 /* individual menu items */
 /*
