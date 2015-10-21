@@ -13,8 +13,6 @@ body {
 	margin: 0;
 }
 .wrapper {
-	/* border: 2px solid orange; */
-	clear: both;
 	width: 900px;
 	margin: 0 auto;
 	padding: 10px;
@@ -24,7 +22,6 @@ body {
 	padding-bottom: 100px;
 }
 header {
-	/* background-color: #2D2D2D; */
 	background-color: #FDF8DA;
 	color: #FEEBB3;
 	width: 100%;
@@ -157,6 +154,7 @@ footer {
 .menu-list {
 	background-color: rgba(65, 132, 199, 0.4);
 	width: 194px;
+	border-radius: 10px;
 }
 
 fieldset {
