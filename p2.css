@@ -29,14 +29,14 @@ header {
 	position: fixed;
 }
 header h1 {
-	background-image: url("logo_sm.png");
-	background-repeat: no-repeat;
-    background-position: center; 
-	padding: 1.5em;
+	/* background-image: url("logo_sm.png"); */
+	/* background-repeat: no-repeat; */
+    /* background-position: center; */
+	color: #4184C7;
+	padding: .75em;
 	width: 30%;
 	float: left;
 }
-
 img {
 	border: 1px solid black;
 }
@@ -66,7 +66,7 @@ aside {
 }
 
 aside ul {
- list-style-type: none;
+ 	list-style-type: none;
 }
 
 aside li {
@@ -93,6 +93,7 @@ nav ul {
 	list-style-type: none;
 	text-align: right;
 }
+
 nav li {
 	display: inline;
 	padding-right: 1.3em;
